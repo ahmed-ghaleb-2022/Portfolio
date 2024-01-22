@@ -23,6 +23,8 @@ import {
     jobit,
     tripguide,
     threejs,
+    todolistWebsite,
+    nextjs,
   } from "../assets";
   
   export const navLinks = [
@@ -85,6 +87,10 @@ import {
       icon: redux,
     },
     {
+      name: "Next JS",
+      icon: nextjs,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -104,10 +110,7 @@ import {
       name: "git",
       icon: git,
     },
-    {
-      name: "figma",
-      icon: figma,
-    },
+    
     {
       name: "docker",
       icon: docker,
@@ -198,12 +201,12 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Todo List",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Simple todo-list application by using nextjs 14 with sever actions and the Database is mongodb connected with prisma.",
       tags: [
         {
-          name: "react",
+          name: "Nextjs",
           color: "blue-text-gradient",
         },
         {
@@ -211,12 +214,21 @@ import {
           color: "green-text-gradient",
         },
         {
+          name: "Prisma",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "blue-text-gradient",
+        },
+        {
           name: "tailwind",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: todolistWebsite,
+      source_code_link: "https://github.com/ahmed-ghaleb-2022/todo-list-nextjs",
+      depeloyment_link: "https://todo-list-nextjs-amber.vercel.app/",
     },
     {
       name: "Job IT",
